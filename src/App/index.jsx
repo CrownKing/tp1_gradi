@@ -7,6 +7,7 @@ import Dashboard from "./organisms/Dashboard";
 import Integracoes from "./organisms/Integracoes";
 import { StoreProvider } from "./store";
 
+
 export const routes = [
     { path: '/home', icon: HomeIcon, tilte: "Home", import: Home },
     { path: '/dashboard', icon: DashIcon, tilte: "Dashboard", import: Dashboard },
