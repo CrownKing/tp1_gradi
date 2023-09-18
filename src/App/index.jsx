@@ -14,8 +14,8 @@ import * as AWS from 'aws-sdk';
 AWS.config.update({
     region: 'us-east-2',
     endpoint: 'dynamodb.us-east-2.amazonaws.com',
-    accessKeyId: ['AKIAVOTPS6UVT3WP5SM6'],
-    secretAccessKey: ['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']
+    accessKeyId: ['KEYID'],
+    secretAccessKey: ['ACCESSKEY']
   });
 
   const onRead = () => {
